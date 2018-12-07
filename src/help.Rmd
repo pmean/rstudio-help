@@ -1,0 +1,149 @@
+---
+title: "RStudio-help"
+author: "Steve Simon"
+date: "December 7, 2018"
+output: html_document
+---
+
+```{r setup, echo=FALSE}
+library(knitr)
+opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+This talk will cover some of the help features built into RStudio.
+
+## The autocomplete feature
+
+![Screenshot of autocompletion of a variable name](../images/autocomplete_variable.png)
+
+<div class="notes">
+
+RStudio has a nice autocomplete feature, which allows you to use long variable names without having to retype everything.
+
+</div>
+
+## Autocomplete feature for functions
+
+![Screenshot of autocompletion of a function name](../images/autocomplete_function.png)
+
+<div class="notes">
+
+When you use autocomplete on a function, popup window lists the possible autocomplete choices AND a brief listing of the variables in the function AND a brief explanation of what the file does.
+
+</div>
+
+## Help on functions within libraries
+
+![Screenshot of a failed search for help](../images/help_join_1.png)
+
+<div class="notes">
+
+One nice feature in RStudio is searching for help for functions in libaries. If you are looking for help for the join function in dplyr, but you have not loaded dplyr yet with the library function, you will not get an answer.
+
+</div>
+
+## Help tab to the rescue!
+
+![Screenshot of help tab](../images/help_join_2.png)
+
+<div class="notes">
+
+But when you ask for help on the same function within the help tab, it provides help, provided you have installed the proper package.
+
+</div>
+
+## The help menu in RStudio
+
+![Screenshot of help menu choices](../images/help_menu.png)
+
+<div class="notes">
+
+You have a lot of extra choices available to you in the help menu.
+
+</div>
+
+## R Help
+
+![Screenshot of R Help submenu](../images/help_r_help.png)
+
+<div class="notes">
+
+You can get links to a variety of web resources with the R Help submenu.
+
+</div>
+
+## RStudio docs submenu
+
+![Screenshot of RStudio docs submenu](../images/help_rstudio_docs.png)
+
+## RStudio Community Forum
+
+![Screenshot of RStudio Community Forum](../images/help_rstudio_community_forum.png)
+
+<div class="notes">
+
+I have not used the RStudio Community Forum.
+
+</div>
+
+## RStudio support
+
+![Screenshot of RStudio support web page](../images/help_rstudio_support.png)
+
+<div class="notes">
+
+I have also not used RStudio support. It appears to be a more technical forum that RStudio Community Forum.
+
+</div>
+
+## Cheatsheets
+
+![Screenshot of major cheat sheet choices from the Help menu](../images/help_cheatsheets.png)
+
+<div class="notes">
+
+Cheat sheets are one or two page PDF documents packed with summaries about various aspects of R and RStudio. I wrote one of these cheat sheets, "How Big is Your Graph".
+
+</div>
+
+## Help menu: Keyboard shortcuts
+
+![Screenshot of keyboard shortcuts](../images/help_keyboard_shortcuts.png)
+
+<div class="notes">
+
+RStudio has a million different keyboard shortcuts. I only use a few of them, but you might find some of these helpful.
+
+</div>
+
+## Help menu: Markdown Quick Reference
+
+![Screenshot of Markdown Quick Reference in the Help tab](../images/help_markdown_quick_reference.png)
+
+<div class="notes">
+
+The Markdown Quick Reference appears in your help tab. I refer to this a lot.
+
+</div>
+
+## Help menu: Roxygen Quick Reference
+
+![Screenshot of Roxygen Quick Reference](../images/help_roxygen_quick_reference.png)
+
+<div class="notes">
+
+I have not used Roxygen, the R based system for documentation based on the Oxygen standard.
+
+</div>
+
+## Summary
+
+RStudio offers a variety of help resources above and beyond what is available in R. These can be found in
+
+* The autocomplete feature for function names,
+
+* The Help tab
+
+* The Help menu
